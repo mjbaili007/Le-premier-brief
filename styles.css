@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.compus {
+  color: rgb(255, 255, 255);
+  font-size: 85px;
+  margin-top: -50px ;
+}
+.LIFE {
+    color: blue;
+    font-size: 70px ; 
+   
+}
+.vert{
+   font-size: 80px ;  
+   color: #0acd72;
+}
+.titre2 {
+    display: flex;
+    align-items: center;
+    margin-top: -30px ;
+}
+.titre2 h1 {
+    margin: 0;
+    margin-left: 40px;
+}
+.head{
+   display: flex;
+   justify-content: space-between;
+}
+.nav-links{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.divglobale{
+background-color: #08111D;
+display: flex;
+justify-content: space-between;
+height: 461px;
+opacity: 1;
+ 
+}
+
+ .classs{
+  color: rgb(255, 254, 254);
+  padding: 50px   ;
+  
+} 
+.aventure{
+ background-color :rgb(36, 24, 209);
+ color: aliceblue;
+ text-decoration: none;
+ border-radius: 8px;
+ padding: 15px;
+ 
+}
+#butt1{
+  background-color :rgb(44, 33, 204); 
+  color: blanchedalmond;
+  padding: 5px;
+  margin-right: 60px ;
+}
+#butt2{
+    color: blanchedalmond;
+    background-color :#08111D ; 
+    padding: 5px;
+    
+}
+
