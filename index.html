@@ -1,11 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mon brief</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <title>mon brief</title>
+</head>
   <body>
     <header class="head">
       <img
@@ -16,7 +31,7 @@
 
       <ul class="nav-links">
         <li class="nav-link"><a class="link" href="index.html">Accueil</a></li>
-        <li class="nav-link"><a class="link" href="Compus.html">Compus</a></li>
+        <li class="nav-link"><a class="link" href="Compus.html">Campus</a></li>
         <li><a>Clubs and Activites</a></li>
         <li><a>Evenement</a></li>
         <li><a>Conseils aux nauveau</a></li>
@@ -24,32 +39,75 @@
       </ul>
       <a class="aventure" href="aventure.html">Rejoindre l'aventure</a>
     </header>
-    
-    <main>
-    <div class="divglobale">
-        <div class="classs">
-        <h1 class="compus">COMPUS</h1>
-        <div class="titre2">
-        <h1 class="LIFE">LIFE</h1>
-        <h1 class="vert">≈</h1>
-        </div>
 
-        <h3 >vie étudiante à YouCode</h3>
-        <p >
-          Découvre un environnemment d'apprentissage unique,<br />
-          des rencontres inspirantes et une communauté qui code<br />
-          le futur avec toi .
-        </p>
-        <button id="butt1">Découvrir le campus → </button>
-        <button id="butt2" >voir les événements</button>
-      </div>
-      <div class="image">
+    <main>
+      <section class="divglobale">
+        <div class="section_hero">
+          <h1 class="compus">CAMPUS</h1>
+          <div class="titre2">
+            <h1 class="LIFE">LIFE</h1>
+            <h1 class="vert">≈</h1>
+          </div>
+
+          <h2 class="titre3">vie étudiante à YouCode</h2>
+          <p class="paraghraph">
+            Découvre un environnemment d'apprentissage unique,<br />
+            des rencontres inspirantes et une communauté qui code<br />
+            le futur avec toi .
+          </p>
+          <button id="butt1">Découvrir le campus →</button>
+          <button id="butt2">voir les événements</button>
+          <article class="les_cercles">
+            <div class="cercle1">A</div>
+            <div class="cercle2">S</div>
+            <div class="cercle1">Y</div>
+            <div class="cercle2">M</div>
+            <p class="paraghraph2_section">
+              Une communauté <br />
+              de +1000 apprenants
+            </p>
+          </article>
+        </div>
         <img
           src="images/5e478cdfb2598301883ad6cc78cef2d10b1388c6.webp"
           alt="image"
+          class="hero-image"
         />
-      </div>
-    </div>
+      </section>
+
+      <section class="statistiques">
+        <article class="satistiques_seul">
+          <i class="fa-sharp fa-regular fa-square fa-rotate-by" ></i>
+          <div>
+            <h2 class="les_titres_statistique">+1000</h2>
+            <p class="paraghraph_statistiques" >Apprenants</p>
+          </div>
+          <p class="ligne" >|</p>
+        </article>
+        <article class="satistiques_seul">
+          <i class="fa-solid fa-users"></i>
+          <div>
+            <h2 class="les_titres_statistique">+20</h2>
+            <p class="paraghraph_statistiques" >Clubs & activités</p>
+          </div>
+          <p class="ligne">|</p>
+        </article>
+        <article class="satistiques_seul">
+          <i class="fa-solid fa-table-cells"></i>
+          <div>
+            <h2 class="les_titres_statistique">+50</h2>
+            <p class="paraghraph_statistiques">Événements par an</p>
+          </div>
+          <p class="ligne">|</p>
+        </article>
+        <article class="satistiques_seul">
+          <i class="fa-solid fa-square"></i>
+          <div>
+            <h2 class="les_titres_statistique">90%</h2>
+            <p class="paraghraph_statistiques">Insertion professionnelle</p>
+          </div>
+        </article>
+      </section>
     </main>
     <footer></footer>
   </body>
